@@ -1,0 +1,10 @@
+{
+    "sites": [
+        { 
+            "name": "玩偶哥哥 | PAN", 
+            "type": 3, 
+            "api": "csp_wogg",
+            "ext": "https://github.com/bpcllc110/xptv/blob/main/wogg.js"
+        }       
+    ]
+}
