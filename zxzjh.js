@@ -53,7 +53,7 @@ async function getCards(ext) {
   let id = ext.id
   let page = ext.page || 1
 
-  var url = "https://www.zxzja.com/"
+  var url = "https://www.zxzjhd.com/"
   if (id == 0 && page > 1) {
       return jsonify({
         list: cards,
@@ -61,7 +61,7 @@ async function getCards(ext) {
   }
 
   if (id > 0) {
-    url = `https://www.zxzja.com/list/${id}.html`
+    url = `https://www.zxzjhd.com/list/${id}.html`
     if (page > 1) {
       url = `https://www.zxzja.com/list/${id}-${page}.html`
     }
@@ -69,7 +69,7 @@ async function getCards(ext) {
 
   const { data } = await $fetch.get(url, {
       headers: {
-        'Referer': 'https://www.zxzja.com/',
+        'Referer': 'https://www.zxzjhd.com/',
         'User-Agent': UA,
       }
   });
@@ -107,7 +107,7 @@ async function getTracks(ext) {
     // 发送请求
     const { data } = await $fetch.get(url, {
         headers: {
-          'Referer': 'https://www.zxzja.com/',
+          'Referer': 'https://www.zxzjhd.com/',
           'User-Agent': UA,
         }
     });
@@ -166,7 +166,7 @@ async function getPlayinfo(ext) {
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
                 "Accept-Encoding": "gzip, deflate, br",
                 "Accept-Language": "zh-CN,zh;q=0.9",
-                "Referer": "https://www.zxzja.com/",
+                "Referer": "https://www.zxzjhd.com/",
                 "Sec-Ch-Ua": "\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"",
                 "Sec-Ch-Ua-Mobile": "?0",
                 "Sec-Ch-Ua-Platform": "\"macOS\"",
@@ -203,7 +203,7 @@ async function search(ext) {
     });
   }
 
-  const url = `https://www.zxzja.com/vodsearch/-------------.html?wd=${text}&submit=`
+  const url = `https://www.zxzjhd.com/vodsearch/-------------.html?wd=${text}&submit=`
   const { data } = await $fetch.get(url, {
     headers: {
       'Referer': 'https://www.zxzja.com/',
