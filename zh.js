@@ -63,7 +63,7 @@ async function getCards(ext) {
   if (id > 0) {
     url = `https://www.zxzjhd.com/list/${id}.html`
     if (page > 1) {
-      url = `https://www.zxzja.com/list/${id}-${page}.html`
+      url = `https://www.zxzjhd.com/list/${id}-${page}.html`
     }
   }
 
@@ -206,7 +206,7 @@ async function search(ext) {
   const url = `https://www.zxzjhd.com/vodsearch/-------------.html?wd=${text}&submit=`
   const { data } = await $fetch.get(url, {
     headers: {
-      'Referer': 'https://www.zxzja.com/',
+      'Referer': 'https://www.zxzjhd.com/',
       'User-Agent': UA,
     }
   });
