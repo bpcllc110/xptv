@@ -5,6 +5,12 @@
             "type": 3, 
             "api": "csp_wgg",
             "ext": "https://raw.githubusercontent.com/bpcllc110/xptv/refs/heads/main/wg.js"
+        },
+                { 
+            "name": "木偶", 
+            "type": 3, 
+            "api": "csp_moougege",
+            "ext": "https://raw.githubusercontent.com/bpcllc110/xptv/refs/heads/main/muou.js"
         }
     ]
 }
