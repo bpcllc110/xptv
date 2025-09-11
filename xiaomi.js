@@ -21,7 +21,7 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 const appConfig = {
     ver: 1,
     title: '小米',
-    site: 'https://mihdr.top',
+    site: 'http://www.miqk.cc',
     // 定義分類
     tabs: [
         // name 為分類名，ext 可以傳入任意參數由 getCards 接收
