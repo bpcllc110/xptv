@@ -35,6 +35,12 @@
             "type": 3,
             "api": "csp_lab",
             "ext": "https://raw.githubusercontent.com/bpcllc110/xptv/refs/heads/main/labipan.js"
-        }
+        },
+        { 
+            "name": "雷鲸小站", 
+            "type": 3,
+            "api": "csp_leijinxiaozhan",
+            "ext": "https://raw.githubusercontent.com/bpcllc110/xptv/refs/heads/main/leijing.fixed.js"
+        }        
   ]
 }
