@@ -6,7 +6,7 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 const appConfig = {
     ver: 1,
     title: '云盘吧',
-    site: 'https://yunpan6.com/',
+    site: 'https://yunpan360.com/',
 }
 
 async function getConfig() {
